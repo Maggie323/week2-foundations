@@ -1,8 +1,10 @@
 
-
+<styles>
 p {
 background-color: red;  
 }
 p::first-letter {
   color:red;
 }
+
+</styles>
