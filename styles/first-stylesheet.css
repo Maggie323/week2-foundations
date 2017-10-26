@@ -1,5 +1,57 @@
 
-
-p {
-background-color: red;  
+h1 {
+  background-color: pink;
+  color: aliceblue;
+  text-align: center;
+  font-size:  200%;
+  font-family: "arial";
+  border-style: solid;
+  border-width: thick;
 }
+h2 {
+ color: tomato;
+}
+h3 {
+  text-decoration: underline;
+  position: absolute;
+}
+p {
+background-color: lightcyan;  
+padding: 50px 30px 50px 80px
+
+}
+a:hover{
+  text-decoration-color: blue;
+  text-decoration-line: line-through;
+  text-decoration-style: wavy;
+}
+p::first-letter {
+  font-size: 50px;
+  color:aqua;
+}
+img {
+  margin-left: 50px;
+  opacity: 0.5;
+}
+body {
+  background-color: lightblue;
+  border: 80px;
+}
+.highlight {
+  background-color: yellow;
+}
+nav.highlight{
+  background-color: lightgoldenrodyellow;
+}
+article h2{
+  outline-color: beige;
+}
+article p {
+  text-decoration-style: double;
+}
+footer p {
+  font-style: italic;
+}
+
+
+
