@@ -29,14 +29,18 @@ img {
   text-align: justify;
   float:right;
   padding: 3rem;
+  margin:auto;
 }
-
+.main-content img {
+  margin: auto;
+  width: 60%;
+  display: block;
+}
 .main-content h2 {
   text-align: center;
   text-decoration: underline;
-
 }
-aside {
+.aside {
   float:left;
   border-width: 3rem;
   border-style: double;
