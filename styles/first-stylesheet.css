@@ -1,58 +1,55 @@
 
 h1 {
-  background-color: pink;
+  background-color: #b3d9ff;
   color: aliceblue;
   text-align: center;
   font-size:  200%;
-  font-family: "arial";
-  border-style: solid;
+  border-style: outset;
   border-width: thick;
-
+  font-family: 'Julius Sans One', sans-serif;
 }
-h2 {
- color: tomato;
+  
+  .main-nav {
+    padding-bottom: 2em;
+    color: #0080ff;
+    font-weight: 700;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display:flex;
+    text-align: center;
 }
-h3 {
-  text-decoration: underline;
-  position: absolute;
-}
-p {
-background-color: lightcyan;  
-padding: 50px 30px 50px 80px
-
-}
-a:hover{
-  text-decoration-color: blue;
-  text-decoration-line: line-through;
-  text-decoration-style: wavy;
-}
-p::first-letter {
-  font-size: 50px;
-  color:aqua;
-}
+  
 img {
-  margin-left: 50px;
-  opacity: 0.5;
+  margin:auto;
+  width:75%;
+  text-align: center;
 }
-body {
-  background-color: lightblue;
-  border: 80px;
+
+.main-content {
+  background-color: #e6f5ff;
+  text-align: justify;
+  float:right;
+  padding: 3rem;
 }
-.highlight {
-  background-color: yellow;
+
+.main-content h2 {
+  text-align: center;
+  text-decoration: underline;
+
 }
-nav.highlight{
-  background-color: lightgoldenrodyellow;
+aside {
+  float:left;
+  border-width: 3rem;
+  border-style: double;
+  border-color: #66ccff;
 }
-article h2{
-  outline-color: beige;
+aside ul {
+  list-style: none;
 }
-article p {
-  text-decoration-style: double;
+
+footer {
+  text-align: center;
 }
-footer p {
-  font-style: italic;
-}
+
 
 
 
