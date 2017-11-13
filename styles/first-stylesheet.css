@@ -1,23 +1,37 @@
 
+header, footer {
+  padding-bottom: 3em;
+  padding-top: 3em;
+  background: url(../images/stones.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
 h1 {
-  background-color: #b3d9ff;
-  color: aliceblue;
   text-align: center;
   font-size:  200%;
-  border-style: outset;
-  border-width: thick;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
   
-  .main-nav {
-    padding-bottom: 2em;
-    color: #0080ff;
+h2, h3 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+
+.main-nav {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: black;
     font-weight: 700;
     font-family: 'Fira Sans Condensed', sans-serif;
     display:flex;
-    text-align: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
 }
-  
+.main-nav a {
+   margin: auto;
+}
+ 
 img {
   margin:auto;
   width:75%;
@@ -25,26 +39,40 @@ img {
 }
 
 .main-content {
-  background-color: #e6f5ff;
+  background-color: #e6f3ff;
   text-align: justify;
-  float:right;
   padding: 3rem;
   margin:auto;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#sun {
+  margin: auto;
+  width: 0%;
+  display: block;
+  padding-bottom: 0.2em;
 }
 .main-content img {
   margin: auto;
   width: 60%;
   display: block;
+  align-content: center;
 }
 .main-content h2 {
   text-align: center;
   text-decoration: underline;
 }
+.main-content ul {
+  list-style: none;
+}
+.adrianna {
+  text-align: center;
+}
 .aside {
-  float:left;
   border-width: 3rem;
   border-style: double;
   border-color: #66ccff;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 aside ul {
   list-style: none;
@@ -52,6 +80,7 @@ aside ul {
 
 footer {
   text-align: center;
+  color: azure;
 }
 
 
