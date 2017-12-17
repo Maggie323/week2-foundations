@@ -1,0 +1,31 @@
+/*This is to override Bootstrap Styles; mainly the color scheme & alignment*/
+
+header {
+text-align: center;
+	margin-top: 15px;
+}
+
+.main-nav {
+	display: block;
+	clear:both;
+	list-style: none;
+	text-align: center;
+	margin: 15px 10px 25px 10px;
+}
+
+div button.btn-default {
+	background-color: #fff7e6;
+}
+
+p a.btn-primary {
+	background-color: #fff7e6;
+	color: black;
+}
+p button.btn-primary {
+	background-color: #fff7e6;
+	color: black;
+}
+
+div.jumbotron-fluid {
+	background-color:  #d9b38c;
+}
